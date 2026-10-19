@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Q2 Drill 1</title>
+    <link href= script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <style>
         body {
             background-image: url(Sc.png);
@@ -26,7 +28,8 @@
         .games {
             display: flex;
             justify-content: center;
-            gap: 25px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .game {
@@ -59,41 +62,46 @@
 </head>
 <body>
 
-    <h1>Beginner's Guide to Soccer</h1>
+    <div class="container-fluid">
 
-    <div class="games">
+        <h1>Beginner's Guide to Soccer</h1>
 
-        <div class="game">
-            <div class="game-header">Basic Rules</div>
-            <ul>
-                <li>No using hands</li>
-                <li>Offside rule</li>
-                <li>Fouls and penalties</li>
-                <li>Scoring goals</li>
-            </ul>
-        </div>
+        <div class="games row">
 
-        <div class="game">
-            <div class="game-header">Soccer Equipment</div>
-            <ul>
-                <li>Soccer ball</li>
-                <li>Cleats</li>
-                <li>Shin guards</li>
-                <li>Goal net</li>
-            </ul>
-        </div>
+            <div class="game col-md-4">
+                <div class="game-header">Basic Rules</div>
+                <ul>
+                    <li>No using hands</li>
+                    <li>Offside rule</li>
+                    <li>Fouls and penalties</li>
+                    <li>Scoring goals</li>
+                </ul>
+            </div>
 
-        <div class="game">
-            <div class="game-header">Basic Techniques</div>
-            <ul>
-                <li>Passing and receiving</li>
-                <li>Dribbling skills</li>
-                <li>Shooting form</li>
-                <li>Positioning</li>
-            </ul>
+            <div class="game col-md-4">
+                <div class="game-header">Soccer Equipment</div>
+                <ul>
+                    <li>Soccer ball</li>
+                    <li>Cleats</li>
+                    <li>Shin guards</li>
+                    <li>Goal net</li>
+                </ul>
+            </div>
+
+            <div class="game col-md-4">
+                <div class="game-header">Basic Techniques</div>
+                <ul>
+                    <li>Passing and receiving</li>
+                    <li>Dribbling skills</li>
+                    <li>Shooting form</li>
+                    <li>Positioning</li>
+                </ul>
+            </div>
+
         </div>
 
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
